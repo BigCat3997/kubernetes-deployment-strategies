@@ -16,7 +16,7 @@ kubectl apply -f nginx-green-deployment.yml
 2.	Check the strategy whether it works correctly
 
 ```bash
-kubectl port-forward service/nginx-service 4200:80
+kubectl port-forward service/nginx-blue-green-service 4200:80
 ```
 
 ```bash
